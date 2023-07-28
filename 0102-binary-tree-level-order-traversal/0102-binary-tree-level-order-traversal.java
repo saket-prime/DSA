@@ -15,36 +15,28 @@
  */
 class Solution {
    public List<List<Integer>> levelOrder(TreeNode root) {
-       Map<Integer, List<Integer>> listMap = new HashMap<>();
-        Queue<List<TreeNode>> nodes = new ArrayDeque<>();
-        int count = 0;
+       List<List<Integer>> listMap = new ArrayList<>();
+        Queue<TreeNode> nodes = new ArrayDeque<>();
 
         if (root != null){
-            List<TreeNode> list = List.of(root);
-            listMap.put(count, new ArrayList<>());
-            listMap.get(count).add(root.val);
-            nodes.add(list);
+            nodes.add(root);
         }
         while(!nodes.isEmpty()){
-            count++;
-            listMap.put(count, new ArrayList<>());
-            List<TreeNode> first = nodes.poll();
-            List<TreeNode> temp = new ArrayList<>();
-            for (int i = 0; i < first.size(); i++){
-                if (first.get(i).left  != null) {
-                    temp.add(first.get(i).left);
-                    listMap.get(count).add(first.get(i).left.val);
+            int size = nodes.size();
+            List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < size; i++){
+              TreeNode first = nodes.poll();
+              list.add(first.val);
+                if (first.left  != null) {
+                    nodes.add(first.left);
                 }
-                if (first.get(i).right  != null) {
-                    temp.add(first.get(i).right);
-                    listMap.get(count).add(first.get(i).right.val);
+                if (first.right  != null) {
+                    nodes.add(first.right);
                 }
             }
-            if(!temp.isEmpty())nodes.add(temp);
-            if(listMap.get(count).isEmpty()) listMap.remove(count);
-            
+            listMap.add(list);  
         }
 
-        return new ArrayList<>(listMap.values());
+        return listMap;
     }
 }
