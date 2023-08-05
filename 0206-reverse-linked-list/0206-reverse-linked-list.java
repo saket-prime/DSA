@@ -20,15 +20,29 @@ class Solution {
     }
 
     public ListNode reverseList(ListNode head) {
+      // if (head == null) return head;
+      //   Stack<ListNode> nodes = stackOfNodes(head);
+      //   head = nodes.pop();
+      //   ListNode node = head;
+      //   while(!nodes.isEmpty()){
+      //     node.next = nodes.pop();
+      //     if(nodes.isEmpty()) node.next.next = null;
+      //     node = node.next;
+      //   }
+      //   return head;
       if (head == null) return head;
-        Stack<ListNode> nodes = stackOfNodes(head);
-        head = nodes.pop();
-        ListNode node = head;
-        while(!nodes.isEmpty()){
-          node.next = nodes.pop();
-          if(nodes.isEmpty()) node.next.next = null;
-          node = node.next;
-        }
-        return head;
+      
+      ListNode curr = head;
+      ListNode currNext = null;
+      ListNode prev = null;
+
+      while(curr!=null){
+        currNext = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = currNext;
+      }
+      head = prev;
+      return head;
     }
 }
