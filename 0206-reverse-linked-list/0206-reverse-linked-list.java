@@ -9,15 +9,15 @@
  * }
  */
 class Solution {
-    public Stack<ListNode> stackOfNodes(ListNode node){
+    // public Stack<ListNode> stackOfNodes(ListNode node){
 
-      Stack<ListNode> nodes = new Stack<>();
-      while(node != null){
-        nodes.push(node);
-        node = node.next;
-      }
-      return nodes;
-    }
+    //   Stack<ListNode> nodes = new Stack<>();
+    //   while(node != null){
+    //     nodes.push(node);
+    //     node = node.next;
+    //   }
+    //   return nodes;
+    // }
 
     public ListNode reverseList(ListNode head) {
       // if (head == null) return head;
