@@ -11,11 +11,7 @@ class Solution {
         if(!tempSet.contains(nums[i]))tempSet.add(nums[i]);
         else continue;
         if(tempSet.size() < nums.length)backTrack(possibles, tempSet, nums);
-        if(tempSet.size() == nums.length) {
-          possibles.add(new ArrayList<>(tempSet));
-          tempSet.remove(tempSet.size() -1);
-          break;
-        }
+        if(tempSet.size() == nums.length) possibles.add(new ArrayList<>(tempSet));
         tempSet.remove(tempSet.size() -1);
       }
 
