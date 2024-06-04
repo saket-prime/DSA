@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/saket-prime/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/saket-prime/DSA/tree/master/1127-last-stone-weight) |
 # Binary Tree
 |  |
 | ------- |
@@ -26,3 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/saket-prime/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+# Array
+|  |
+| ------- |
+| [1127-last-stone-weight](https://github.com/saket-prime/DSA/tree/master/1127-last-stone-weight) |
