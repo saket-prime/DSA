@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/saket-prime/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1014-k-closest-points-to-origin](https://github.com/saket-prime/DSA/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/saket-prime/DSA/tree/master/1127-last-stone-weight) |
 # Binary Tree
 |  |
@@ -30,4 +31,25 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [1014-k-closest-points-to-origin](https://github.com/saket-prime/DSA/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/saket-prime/DSA/tree/master/1127-last-stone-weight) |
+# Math
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/saket-prime/DSA/tree/master/1014-k-closest-points-to-origin) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/saket-prime/DSA/tree/master/1014-k-closest-points-to-origin) |
+# Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/saket-prime/DSA/tree/master/1014-k-closest-points-to-origin) |
+# Sorting
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/saket-prime/DSA/tree/master/1014-k-closest-points-to-origin) |
+# Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/saket-prime/DSA/tree/master/1014-k-closest-points-to-origin) |
