@@ -72,16 +72,31 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/saket-prime/DSA/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/saket-prime/DSA/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/saket-prime/DSA/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/saket-prime/DSA/tree/master/0268-missing-number) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/saket-prime/DSA/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/saket-prime/DSA/tree/master/0268-missing-number) |
 ## Linked List
 |  |
 | ------- |
 | [0237-delete-node-in-a-linked-list](https://github.com/saket-prime/DSA/tree/master/0237-delete-node-in-a-linked-list) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/saket-prime/DSA/tree/master/0268-missing-number) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/saket-prime/DSA/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/saket-prime/DSA/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
